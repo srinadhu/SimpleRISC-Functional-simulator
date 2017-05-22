@@ -44,7 +44,7 @@ For cleaning the project:
     
 1. What our program is doing?
 	
-  After building the project using makefile, our code takes input from the txt file related to the question
+        After building the project using makefile, our code takes input from the txt file related to the question
 	which consists of some instructions in hexadecimal format. Then our code initialises it through the main 
 	function which further calls run_simplesim function which performs the basic five steps using the instruction.
 	
