@@ -1,4 +1,3 @@
-# SimpleRISC-Functional-simulator
 
 ================================================
 Functional Simulator for simpleRISC processor
