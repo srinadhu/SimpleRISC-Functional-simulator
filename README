@@ -1,4 +1,6 @@
-# SimpleRISC-Functional-simulator
+================================================
+Functional Simulator for simpleRISC processor
+================================================
 
 Table of contents
 1. Directory Structure
@@ -42,7 +44,7 @@ For cleaning the project:
     
 1. What our program is doing?
 	
-	After building the project using makefile, our code takes input from the txt file related to the question
+  After building the project using makefile, our code takes input from the txt file related to the question
 	which consists of some instructions in hexadecimal format. Then our code initialises it through the main 
 	function which further calls run_simplesim function which performs the basic five steps using the instruction.
 	
@@ -68,22 +70,21 @@ For cleaning the project:
 	(an issue wth basic assumption of SimpleRisc and practically available memory in a system i.e theoritical vs practical). 
     
 3. How to compile ?
-	$cd src
-	$make
+	 $cd src
+	 $make
 
 4. How to use/run ?				//After Compiling.
-	$cd -
-	$cd test
-	$./mySimpleSim sum.txt           // Or name of any other txt file that we want to run.
- //for cleaning
-	$cd -
-	$cd src
-	$make clean
+	 $cd -
+	 $cd test
+	 $./mySimpleSim sum.txt           // Or name of any other txt file that we want to run.
+  
+   //for cleaning
+	 $cd -
+	 $cd src
+	 $make clean
 
 5. How output looks like ?
-	After processing all the instructions from the txt file, We are printing the values of different 
-	operands and the immediate for each instruction and after that we are also printing the final values 
-	of registers from R0 to R15 and different stages start and end of execution.
+	 After processing all the instructions from the txt file, We are printing the values of different operands and the immediate for each instruction and after that we are also printing the final values of registers from R0 to R15 and different stages start and end of execution.
     
 Developed by
 Sai Srinadhu K (email: 2015csb1015@iitrpr.ac.in)
