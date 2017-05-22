@@ -86,8 +86,11 @@ For cleaning the project:
 5. How output looks like ?
 	 After processing all the instructions from the txt file, We are printing the values of different operands and the immediate for each instruction and after that we are also printing the final values of registers from R0 to R15 and different stages start and end of execution.
     
+    
 Developed by
 Sai Srinadhu K (email: 2015csb1015@iitrpr.ac.in)
 Kesav Garg (email: 2015csb1016@iitrpr.ac.in)
 
+Supervised by
+Dr. Neeraj Goel (email: neeraj@iitrpr.ac.in)
        
